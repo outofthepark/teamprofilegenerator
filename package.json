@@ -1,0 +1,37 @@
+{
+  "name": "teamprofilegenerator",
+  "version": "1.0.0",
+  "description": "This package generates an html webpage containing information about team members.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "sample": "node ./sample/sample.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/outofthepark/teamprofilegenerator.git"
+  },
+  "keywords": [
+    "inquirer",
+    "jest",
+    "node"
+  ],
+  "author": "outofthepark",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/outofthepark/teamprofilegenerator/issues"
+  },
+  "homepage": "https://github.com/outofthepark/teamprofilegenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
+}

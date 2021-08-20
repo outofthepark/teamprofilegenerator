@@ -1,0 +1,22 @@
+.teamTitle{
+    margin: 20px;
+    text-align: center;
+}
+
+.engineersSection, .managersSection, .internsSection{
+    margin: 20px;
+}
+
+.engineersDiv, .managersDiv, .internsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 40px;
+}
+
+.engineerDiv, .managerDiv, .internDiv{
+    padding: 20px;
+    border-style: solid;
+    text-align: center;
+    background-color: aliceblue;
+}
