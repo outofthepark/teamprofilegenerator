@@ -46,7 +46,15 @@ const buildTeam = () => {
     .prompt({
         type: 'text',
         name: 'teamName',
-        message: 'What is this team\'s name?'
+        message: 'What is this team\'s name?',
+        validate: teamName => {
+            if (teamName) {
+              return true;
+            } else {
+              console.log('Please enter a team name!');
+              return false;
+            }
+        }
     }).then(( teamName ) => {
         team.name = teamName;
         return team.addManager();

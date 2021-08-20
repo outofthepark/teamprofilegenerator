@@ -9,13 +9,13 @@ test('creates an Engineer object', () => {
   expect(ussVoyagerManager.officeNumber).toBe('1');
 });
 
-test("gets engineer's github value", () => {
+test("gets manager's office number", () => {
     const ussVoyagerManager = new Manager('Katherine Janeway', 'kjaneway@voyager.org', '12345', '1');
   
     expect(ussVoyagerManager.getOfficeNumber()).toBe(ussVoyagerManager.officeNumber);
   });
 
-  test("gets the engineer's role", () => {
+  test("gets the manager's role", () => {
     const ussVoyagerManager = new Manager('Katherine Janeway', 'kjaneway@voyager.org', '12345', '1');
   
     expect(ussVoyagerManager.getRole()).toBe(`Manager`);

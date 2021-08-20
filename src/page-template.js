@@ -72,8 +72,6 @@ const generateInterns = internsArr => {
 
   // export function to generate entire page
   module.exports = myTeam => {
-      console.log(myTeam);
-    // destructure page data by sections  
     return `
     <!DOCTYPE html>
     <html lang="en">
